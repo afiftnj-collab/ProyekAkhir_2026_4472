@@ -82,24 +82,37 @@ border-radius: 8px;
 
 /* TODO CSS-04: Rapikan daftar kegiatan, jumlah kegiatan, dan pesan
    status. Bedakan tampilan status berhasil dan gagal. */
-#daftarKegiatan {padding-left: 25px;margin-top: 15px;
+#daftarKegiatan {
+  padding-left: 25px;
+  margin-top: 15px;
 }
 
-#daftarKegiatan li {padding: 10px;margin-bottom: 8px;
+#daftarKegiatan li {
+  padding: 10px;
+  margin-bottom: 8px;
   background-color: #f1f5f9;
   border-radius: 5px;
 }
 
-.ringkasan {margin-top: 15px;padding: 10px;
+.ringkasan {
+  margin-top: 15px;
+  padding: 10px;
   font-weight: bold;
 }
 
-#pesanStatus {padding: 10px;margin-top: 10px;border-radius: 5px;
-}b
+#pesanStatus {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
 
-#pesanStatus.berhasil {background-color: #d1fae5;color: #166534;
+#pesanStatus.berhasil {
+  background-color: #dbfce6;
+  color: #166534;
 
 }
 
-#pesanStatus.gagal {background-color: #fee2e2;color: #991b1b
+#pesanStatus.gagal {
+  background-color: #fee2e2;
+  color: #991b1b
 }
