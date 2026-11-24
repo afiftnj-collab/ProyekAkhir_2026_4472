@@ -154,7 +154,7 @@ function cariKegiatan(daftar, nama) {
   // Cari posisi kegiatan dengan indexOf(), lalu kembalikan indeksnya.
   // Jika tidak ditemukan, indexOf() akan menghasilkan -1.
 const namaBersih = nama.trim();
-  return daftar.indexof(namaBersih); // SEMENTARA: ganti setelah TODO JS-06 selesai
+  return daftar.indexOf(namaBersih); // SEMENTARA: ganti setelah TODO JS-06 selesai
 }
 
 // TODO JS-07 dan JS-08 — Penghapusan kegiatan
